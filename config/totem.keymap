@@ -79,9 +79,9 @@
 
         default_layer {
             bindings = <
-         &kp Q          &kp W        &kp F            &kp P              &kp G             /* | */        &kp J          &kp L              &kp U            &kp Y             &kp SEMI
-         &hml LGUI A    &hml LALT R  &hml LCTRL S     &hml LSHIFT T      &kp D             /* | */        &kp H          &hmr LSHIFT N      &hmr LCTRL E     &hmr LALT I       &hmr LGUI O
-&kp LBKT &kp Z          &kp X        &kp C            &kp V              &kp B             /* | */        &kp K          &kp M              &kp COMMA        &kp DOT           &kp SLASH        &kp SQT
+         &kp Q          &kp W        &kp E            &kp R              &kp T             /* | */        &kp Y          &kp U              &kp I            &kp O             &kp P
+         &hml LGUI A    &hml LALT S  &hml LCTRL D     &hml LSHIFT F      &kp G             /* | */        &kp H          &hmr LSHIFT J      &hmr LCTRL K     &hmr LALT L       &hmr LGUI SEMI
+&kp LBKT &kp Z          &kp X        &kp C            &kp V              &kp B             /* | */        &kp N          &kp M              &kp COMMA        &kp DOT           &kp SLASH        &kp SQT
                                      /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
                                      &kp BSPC          &lt NAV ESC       &kp SPACE         /* | */        &lt NUM TAB    &lt SYM ENTER      &kp DEL
             >;
@@ -89,9 +89,9 @@
 
         navigation_layer {
             bindings = <
-         &kp LC(Q)     &kp LC(W)     &kp LC(F)        &kp LC(P)          &tabber            /* | */        &kp PG_UP      &kp HOME           &kp UP          &kp END            &kp LC(SEMI)
-         &kp LGUI      &sk LALT      &sk LCTRL        &sk LSHIFT         &kp LC(D)          /* | */        &kp PG_DN      &kp LEFT           &kp DOWN        &kp RIGHT          &kp LC(O)
-&trans   &kp LC(Z)     &kp LC(X)     &kp LC(C)        &kp LC(V)          &swapper           /* | */        &kp LC(K)      &kt LC(M)          &kp K_CONTEXT_MENU &kp LC(PERIOD)  &kp LC(SLASH)   &trans
+         &kp LC(Q)     &kp LC(W)     &kp LC(E)        &kp LC(R)          &tabber            /* | */        &kp PG_UP      &kp HOME           &kp UP          &kp END            &kp LC(P)
+         &kp LGUI      &sk LALT      &sk LCTRL        &sk LSHIFT         &kp LC(G)          /* | */        &kp PG_DN      &kp LEFT           &kp DOWN        &kp RIGHT          &kp LC(SEMI)
+&trans   &kp LC(Z)     &kp LC(X)     &kp LC(C)        &kp LC(V)          &swapper           /* | */        &kp LC(N)      &kt LC(M)          &kp K_CONTEXT_MENU &kp LC(PERIOD)  &kp LC(SLASH)   &trans
                                      /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
                                      &trans           &trans             &trans             /* | */        &trans         &trans             &trans
             >;
